@@ -1,62 +1,113 @@
-# iOS Portfolio App
+# 📱 MyPortfolio – iOS Portfolio App
 
-An iOS application built using SwiftUI to showcase app architecture, Core Data usage, PDF generation and signing, and clean MVVM design.
+MyPortfolio is a SwiftUI-based iOS application created to showcase my iOS development skills through an interactive, real-world style application.
 
-This project is designed as an interactive portfolio app.
-
----
-
-## Features
-
-- SwiftUI based UI
-- MVVM architecture
-- Core Data persistence
-- Feedback flow with:
-  - Dynamic questions
-  - Local data storage
-  - PDF generation
-  - In-app PDF signing
-- Unit tests for repositories
-- Clean modular folder structure
+The app focuses on clean architecture, thoughtful user experience, and scalable design, using sample data for demonstration purposes.
 
 ---
 
-## Screens
+## ✨ Overview
 
-- Profile
-- Feedback form
-- PDF review and signing
-- Submission confirmation
+The app allows users to:
+- Explore profile and portfolio-related content
+- Provide structured feedback
+- Review and sign a generated feedback document
+- Experience intelligent, non-intrusive user interaction flows
+
+> Note: All data shown in the app is sample data. Backend integration is intentionally left for future enhancement.
 
 ---
 
-## Tech Stack
+## 📸 Screenshots
 
-- Swift
+### Home / Profile Screen
+![Home Screen](screenshots/home_profile.png)
+
+---
+
+### Tab Navigation
+![Tab Navigation](screenshots/tab_navigation.png)
+
+---
+
+### First-Time Contact Prompt
+The app intelligently asks for contact details only when the user first meaningfully interacts with the app.
+
+![First Contact Prompt](screenshots/contact_prompt_first_time.png)
+
+---
+
+### Feedback Questionnaire
+Users can submit structured feedback through a guided questionnaire.
+
+![Feedback Questions](screenshots/feedback_questions.png)
+
+---
+
+### Contact Prompt on Feedback Submission
+If contact details were skipped initially, the app prompts the user again before final feedback submission.
+
+![Contact Prompt on Feedback](screenshots/contact_prompt_on_feedback.png)
+
+---
+
+### Feedback PDF Preview
+Submitted feedback is compiled into a PDF document that the user can review.
+
+![Feedback PDF](screenshots/feedback_pdf_preview.png)
+
+---
+
+### Digital Signature
+Users can add a digital signature before completing feedback submission.
+
+![Digital Signature](screenshots/digital_signature.png)
+
+---
+
+## 🧠 Key UX Decisions
+
+- Contact details are requested only when necessary
+- Users can skip contact input without blocking app usage
+- Validation is contextual and non-intrusive
+- Feedback flow ensures meaningful data collection without harming user experience
+
+---
+
+## 🏗️ Architecture
+
 - SwiftUI
-- Core Data
-- PDFKit
-- XCTest
+- MVVM Architecture
+- Repository Pattern
+- Core Data for local persistence
+- Feature-based modular structure
 
 ---
 
-## Notes
+## 🧪 Testing
 
-- The app currently uses sample data
-- Backend integration is planned as a future enhancement
-- Designed to demonstrate iOS engineering practices
-
----
-
-## How to Run
-
-1. Clone the repository
-2. Open `MyPortfolio.xcodeproj`
-3. Run on an iOS simulator (iOS 16+)
+- Repository-level unit tests included
+- Focus on data correctness and business logic
+- UI test scaffolding present
 
 ---
 
-## Author
+## 🚀 Future Enhancements
 
-Radhika Rathi
+- Backend integration
+- Authentication
+- Cloud storage
+- Android version using Jetpack Compose
+
+---
+
+## 🛠️ Requirements
+
+- Xcode 15+
+- iOS 17+
+- Swift 5.9+
+
+---
+
+## 📂 Project Structure
 

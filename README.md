@@ -110,4 +110,17 @@ Users can add a digital signature before completing feedback submission.
 ---
 
 ## 📂 Project Structure
+MyPortfolio/
+├── App
+├── CoreData
+├── Features
+│   ├── Feedback
+│   │   ├── Views
+│   │   ├── ViewModels
+│   │   └── Helpers
+│   └── Profile
+├── Shared
+├── Resources
+├── Tests
+└── README.md
 

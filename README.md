@@ -1,8 +1,14 @@
-# 📱 MyPortfolio – iOS Portfolio App
+# 📱 MyPortfolio – Interactive iOS App
 
-MyPortfolio is a SwiftUI-based iOS application created to showcase my iOS development skills through an interactive, real-world style application.
+**MyPortfolio** is a SwiftUI iOS application built to showcase real-world engineering skills, including:
+- MVVM architecture
+- Local persistence with Core Data
+- Dynamic user flows and state
+- PDF generation and digital signature capture
+- Repository-based data access and unit testing
 
-The app focuses on clean architecture, thoughtful user experience, and scalable design, using sample data for demonstration purposes.
+This project highlights my ability to design and implement clean, scalable, and maintainable mobile applications using modern iOS technologies.
+
 
 ---
 
